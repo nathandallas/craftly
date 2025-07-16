@@ -1,0 +1,38 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  border: none;
+}
+
+/* Primary Button (Default) */
+.button.primary {
+  background-color: #f59e0b; 
+  color: white;
+}
+
+.button.primary:hover {
+  background-color: #d97706;
+}
+
+/* Secondary Button */
+.button.secondary {
+  background-color: #f3f4f6;
+  color: #111827; 
+  border: 1px solid #d1d5db; 
+}
+
+.button.secondary:hover {
+  background-color: #e5e7eb; 
+}
+
+/* Disabled State */
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
